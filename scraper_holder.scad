@@ -50,12 +50,12 @@ module holder_prop()
     color("red") hull()
     {
         translate([0,0,structure_width+3]) cube([1,block_width,2]);
-        translate([-4,0,structure_width-1]) cube([5,block_width,1]);
+        translate([-10,0,structure_width-1]) cube([11,block_width,1]);
     }
     color("red") hull()
     {
         translate([0,0,-3]) cube([1,block_width,2]);
-        translate([-4,0,0]) cube([5,block_width,1]);
+        translate([-10,0,0]) cube([11,block_width,1]);
     }
     
     // tool holder
